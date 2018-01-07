@@ -1,5 +1,8 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import Page from "./components/Page";
 
-ReactDOM.render(<Page />, document.getElementById("app"));
+import Todo from "./components/Todo";
+import store from "./store/TodoStore";
+
+ReactDOM.render(<Todo />, document.getElementById("app"));
+
